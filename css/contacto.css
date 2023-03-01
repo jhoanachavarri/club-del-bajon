@@ -1,0 +1,211 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style-type: none;
+}
+body {
+    background-repeat: no-repeat;
+    background-image: url(../../imagenes/fondo\ comidas.jpg);
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0%;
+    text-decoration: none;
+
+}
+nav a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: none;
+
+}
+nav>ul>li a {
+    list-style-type: none;
+    color: rgb(241, 236, 229);
+    font-weight: bolder;
+    font-size: 30px;
+    border: 2px black;
+    width: 30vw;
+    height: 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.img_hombrecomiendo {
+ width: 400px;
+ height: 300px;
+ background-position: right;
+
+}
+
+.box_main{
+    text-align: left;
+}
+.box_contacto {
+    width: 30vw;
+    height: 300vx;
+    background-color: rgba(236, 230, 230, 0.653);;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 4px;
+    border: 20px;
+    margin: 40px;
+
+}
+header {
+    height: 15%;
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: none;
+}
+main {
+    width: 100vw;
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+footer,
+nav {
+    background-color:brown;
+}
+
+footer {
+    height: 10%;
+    bottom: 0px;
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot_b,.foot_a{
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+}
+.foot_a li{
+    font-size: 20px;
+    margin: 0px 15px 0px 15px;
+    color: white;
+}
+.foot_b li{
+    color: white;
+    display: flex; 
+    margin: 15px 10px 0px 8px;
+}
+div class item display {
+    display: item;
+}
+.button_receta{
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: rgba(236, 230, 230, 0.653);
+    font-size: 25px;
+    border-color: white;
+    border-style: dashed;
+
+}
+.ul_form{
+    padding: 5px;
+
+}
+.li_form{
+    padding: 5px;
+}
+.div_button{
+    text-align: center;
+}
+.contacto_h2{
+    width: 100%;
+    text-align: center;
+}
+@media screen and (max-width: 689px) {
+    .titulo p {
+        font-size: 40px;
+    }
+    nav>ul>li a {
+        font-size: 18px;
+        margin: 0px;
+        
+    }
+    footer {
+        height: 15%;
+       
+    }
+    
+    .div_h1 {
+        font-size: 20px;
+    }
+    .div_h2 {
+        font-size: 16px;
+    }
+    .box_main {
+
+        display: flex;
+        flex-direction: column;
+  
+    }
+    .conteinerbox1 li{
+        font-size: 14px;
+        }
+        .conteinerbox1  {
+        
+            width: 200px;
+            height: 250px;
+            margin: 0px 0px;
+            
+        }
+        .logo{
+            width: 32px;
+            height: 40px;
+        }
+        .conteinerbox2 li{
+            font-size: 18px;
+        }
+        .box_contacto {
+
+            width: 200px;
+            height: 300px;
+            margin: 10px 0px;
+           
+        }
+        main {
+            height: 70%;
+        }
+        .img_hombrecomiendo{
+            width: 300px;
+            height: 200px;
+        
+        }
+        .foot_b,.foot_a{
+            justify-content: flex-end;
+            display: flex;
+            flex-direction: column;
+            
+        }
+        
+        
+}

@@ -1,0 +1,142 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style-type: none;
+}
+body {
+    background-image: url(../imagenes/fondo\ comidas.jpg);
+    background-size: 100% 100%;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+header{
+    height: 15%;
+}
+img {
+  width: 1380px;
+  height: 520px;
+}
+
+.tomahaw{
+    height: 50px;
+    width: 50px;
+}
+nav a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90vw;
+    padding: 1%;
+    margin: 0px;
+    text-decoration: none;
+
+}
+nav a:hover {
+    color: #c78c19;
+    text-decoration: none;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+nav>ul>li a {
+    list-style-type: none;
+    color: rgb(241, 236, 229);
+    font-weight: bolder;
+    font-size: 30px;
+    border: 2px transparent solid;
+    width: 30vw;
+    height: 30px;
+    border-radius: 10px;
+ 
+}
+
+nav ul li {
+    list-style: none;
+    text-decoration: none;
+    margin: 10px;
+
+}
+
+title {
+align-items: center;
+}
+footer,
+nav {
+    background-color:brown;
+}
+
+footer {
+    height: 10%;
+    bottom: 20%;
+    background-color: brown;
+}
+footer ul{
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: row;
+}
+footer li{
+    font-size: 40px;
+    margin: 5px;
+    color: white;
+}
+div class item display {
+    display: item;
+}
+
+
+
+.titulo p {
+    width: 100vw;
+    height: 30%;
+    background-color: rgba(0, 0, 0, 0.452);
+    text-align: center;
+    font-size: 80px;
+    font-weight: bolder;
+    color: black;
+    text-shadow:
+        0 0 25px #FFF,
+        0 0 10px #FFF,
+        0 0 15px #FFF,
+        0 0 20px #c78c19,
+        0 0 30px #c78c19,
+        0 0 40px #c78c19,
+        0 0 55px #c78c19,
+        0 0 75px #c78c19;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 100vw;
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 689px) {
+    .titulo p {
+        font-size: 40px;
+    }
+    nav>ul>li a {
+        font-size: 18px;
+        margin: 0px;
+        
+    }
+    footer li{
+        font-size: 25px;
+    }
+    nav ul li {
+        margin: 5px;
+    
+    }
+}
